@@ -6,8 +6,8 @@ export const SidebarNavLink = ({ to, children }) => (
     to={to}
     className={({ isActive }) =>
       cn(
-        "flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:text-primary text-muted-foreground",
-        isActive && "text-primary bg-muted"
+        "flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:bg-gray-100",
+        isActive ? "text-primary bg-gray-100 font-semibold" : "text-gray-500 hover:text-primary"
       )
     }
   >
