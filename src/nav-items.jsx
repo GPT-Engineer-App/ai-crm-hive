@@ -1,4 +1,4 @@
-import { BarChart3, Contact2, Home, Settings, Wallet } from "lucide-react";
+import { BarChart3, Contact2, Home, Settings as SettingsIcon, Wallet } from "lucide-react";
 import Dashboard from "./pages/Dashboard";
 import Contacts from "./pages/Contacts";
 import Deals from "./pages/Deals";
@@ -33,7 +33,7 @@ export const navItems = [
   {
     title: "Settings",
     to: "/settings",
-    icon: <Settings className="h-4 w-4" />,
+    icon: <SettingsIcon className="h-4 w-4" />,
     page: <Settings />,
   },
 ];
